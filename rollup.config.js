@@ -15,6 +15,7 @@ export default {
 	},
 	plugins: [
 		svelte({
+      hydratable: true,
 			// opt in to v3 behaviour today
 			skipIntroByDefault: true,
 			nestedTransitions: true,
